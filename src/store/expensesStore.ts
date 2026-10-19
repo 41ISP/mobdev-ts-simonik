@@ -1,5 +1,3 @@
-const useExpensesStore = () => {
-
-}
-
-export default useExpensesStore
+export const useExpensesStore = create() (
+    persist((set) => ({}), {name: 'expenses' })
+) 
